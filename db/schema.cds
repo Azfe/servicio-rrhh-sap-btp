@@ -10,6 +10,7 @@ entity Empleado : managed {
     Email : String(255);
     Telefono : String(20);
     DepartamentoID : UUID;
+    puesto : String(50);
 }
 
 entity Departamento : managed {
